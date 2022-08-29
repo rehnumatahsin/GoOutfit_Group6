@@ -1,0 +1,292 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+img{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-content: center;
+    border-radius: 50%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    background-color: #f2f2f0;
+    background-color: #48138992;
+    background-image: url("cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  
+  body,
+  input,
+  button {
+    font-family: "Muli", sans-serif, -apple-system, BlinkMacSystemFont,
+      "Helvetica Neue", Helvetica, sans-serif;
+    outline: none;
+  }
+  
+  .main-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  a {
+    color: rgb(241, 194, 40);
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-container {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
+  .form-body {
+    background-color: #5a0e8d78;
+    overflow: hidden;
+    padding: 50px;
+    color: #ffffff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      font-family: "Muli", sans-serif, -apple-system, BlinkMacSystemFont,
+      "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .form-body {
+      padding: 50px 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 455px) {
+    .form-body {
+      padding: 45px 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 340px) {
+    .form-body {
+      padding: 30px 20px;
+    }
+  }
+  
+  .form-body .title {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+  }
+  .social-login button {
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .social-login button {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 auto;
+    flex: 1 auto;
+  }
+  
+  .social-login button {
+    background-color: #56385a;
+    border-color: #56385a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: right;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: #e6e6e6;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .social-login button{
+    width: 60%;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    margin-right: 5px;
+  }
+
+  
+  .social-login button {
+    margin-right: 10px;
+    margin-left: 72px;
+    align-content: center;
+    
+  }
+  
+  .social-login button {
+    background-image: url("google.png");
+    background-position: left;
+    background-position-x: 18px;
+    
+
+  }
+    
+  .form-group [type="email"],.form-group [type="password"]{
+    padding: 15px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 100%;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    color: #e6e6e6;
+  }
+
+  .form-group [type="email"]::-webkit-input-placeholder,
+  .form-group [type="password"]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-group [type="email"]::-moz-placeholder,
+.form-group [type="password"]::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-group [type="email"]:-ms-input-placeholder,
+.form-container .form-body .form-group [type="password"]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-group [type="email"]::-ms-input-placeholder,
+.form-container .form-body .form-group [type="password"]::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-group [type="email"]::placeholder,
+.form-container .form-body .form-group [type="password"]::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-group [type="email"]:hover,
+.form-group [type="password"]:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.form-group [type="email"]:focus,
+.form-group [type="password"]:focus {
+  background: #ffffff;
+  -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  border-color: #4a304d;
+  color: #222222;
+}
+
+.form-group [type="email"]:focus::-webkit-input-placeholder,
+.form-container .form-body .form-group [type="password"]:focus::-webkit-input-placeholder {
+  color: #666666;
+}
+
+.form-group [type="email"]:focus::-moz-placeholder,
+.form-group [type="password"]:focus::-moz-placeholder {
+  color: #666666;
+}
+
+.form-group [type="email"]:focus:-ms-input-placeholder,
+.form-group [type="password"]:focus:-ms-input-placeholder {
+  color: #666666;
+}
+
+.form-group [type="email"]:focus::-ms-input-placeholder,
+.form-group [type="password"]:focus::-ms-input-placeholder {
+  color: #666666;
+}
+
+.form-group [type="email"]:focus::placeholder,
+.form-group [type="password"]:focus::placeholder {
+  color: #666666;
+}
+
+button[type="submit"] {
+  background: #f8b961;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: black;
+  width: 70%;
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+.form-body [type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.form-body .title {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+  }
+  .form-footer div {
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 15px;
+    color: #e6e6e6;
+  }
+  
+  .form-footer div a {
+    color: #fcd5a0;
+  }
+
+  h5{
+    text-align: center;
+  }
+
+  .social-login button:hover{
+    background-color: #f8b961;
+    border-color: #f8b961;
+    color: #400340;
+    -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
