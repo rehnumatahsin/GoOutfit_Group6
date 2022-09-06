@@ -109,6 +109,7 @@ $customer_image = $row_customer['customer_image'];
 
 </form><!--- form Ends -->
 
+
 <?php
 
 if(isset($_POST['update'])){

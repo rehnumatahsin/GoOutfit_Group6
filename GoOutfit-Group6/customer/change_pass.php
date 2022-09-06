@@ -40,6 +40,7 @@
 </div><!-- text-center Ends -->
 
 </form><!-- form Ends -->
+
 <?php
 
 if(isset($_POST['submit'])){
