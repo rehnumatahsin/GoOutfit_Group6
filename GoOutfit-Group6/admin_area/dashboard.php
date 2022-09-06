@@ -12,7 +12,6 @@ else {
 
 
 
-
 ?>
 
 <div class="row"><!-- 1 row Starts -->
