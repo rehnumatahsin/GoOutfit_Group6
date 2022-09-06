@@ -152,9 +152,7 @@ CREATE TABLE `coupons` (
 -- Dumping data for table `coupons`
 --
 
-INSERT INTO `coupons` (`coupon_id`, `product_id`, `coupon_title`, `coupon_price`, `coupon_code`, `coupon_limit`, `coupon_used`) VALUES
-(5, 8, 'Sale', '10', 'CASTRO', 2, 1),
-(6, 14, 'Sale', '65', 'CODEASTRO', 3, 1);
+
 
 -- --------------------------------------------------------
 
