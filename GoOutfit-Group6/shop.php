@@ -8,9 +8,7 @@ include("functions/functions.php");
 include("includes/main.php");
 
 ?>
-  <!-- MAIN -->
   <main>
-    <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">shop</span> AT GOut

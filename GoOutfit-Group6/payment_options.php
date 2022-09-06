@@ -19,7 +19,7 @@ $customer_id = $row_customer['customer_id'];
 
 <p class="lead text-center">
 
-<a href="order.php?c_id=<?php echo $customer_id; ?>">Pay Off line</a>
+<a href="order.php?c_id=<?php echo $customer_id; ?>">Cash On Delivery</a>
 
 </p>
 
@@ -79,8 +79,8 @@ $i++;
 <input type="image" name="submit" width="500" height="270" src="images/paypal.png" >
 
 
-</form><!-- form Ends -->
+</form>
 
-</center><!-- center Ends -->
+</center>
 
-</div><!-- box Ends -->
+</div>

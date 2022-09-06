@@ -10,7 +10,6 @@ include("functions/functions.php");
 
 <?php
 
-
 $ip_add = getRealUserIp();
 
 if(isset($_POST['id'])){
@@ -25,9 +24,5 @@ $run_qty = mysqli_query($con,$change_qty);
 
 
 }
-
-
-
-
 
 ?>

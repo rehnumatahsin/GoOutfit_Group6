@@ -1,6 +1,5 @@
 <?php
 
-
 include("includes/db.php");
 
 include("functions/functions.php");
@@ -52,10 +51,6 @@ $run_delete = mysqli_query($con,$delete_cart);
 echo "<script>alert('Your order has been submitted,Thanks ')</script>";
 
 echo "<script>window.open('customer/my_account.php?my_orders','_self')</script>";
-
-
-
-
 
 }
 

@@ -106,10 +106,6 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
 
-
-
-
-
 <div class="col-md-12"><!-- col-md-12 Starts -->
 
 <div class="row" id="productMain"><!-- row Starts -->
