@@ -25,7 +25,7 @@ that focuses on the customer to customer business model.
 
 GoOutfit System Architecture
 
-Figure 1: System Overview
+System Overview
 This system (GoOutfit web application) is going to be developed in order to be used by the
 users who are interested in buying and selling clothes using an automated web based
 online platform and via an online cloth delivery application. Basically, this system has
