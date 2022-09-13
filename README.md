@@ -6,8 +6,8 @@
 Username: admin@mail.com
 Password: Password@123
 
-GoOutfit is a emmoerce website for selling cloths. This website is made using PHP,Javascript,booststrap.Html and css.
-This is a project for our Appdevelopmetn website.
+GoOutfit is a ecommerce website for selling cloths. This website is made using PHP,Javascript,booststrap.Html and css.
+This is a project for our App development website.
 
 Background
 
