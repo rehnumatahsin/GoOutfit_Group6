@@ -164,6 +164,7 @@ echo "<script>window.open('index.php?view_terms','_self')</script>";
 
 }
 
+ 
 }
 
 
